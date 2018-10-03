@@ -3,18 +3,18 @@ module.exports = function(app) {
     if (err) throw err;
 
 app.models.Juego.create([{
-      nombre: 'Bel Cafe',
-      descripcion: 'Vancouver',
+      nombre: 'pelota',
+      descripcion: 'juego pelota',
       imagen:'imagen juego',
       grupal:false		
     },{
-      nombre: 'Bel Cafe',
-      descripcion: 'Vancouver',
+      nombre: 'pelota2',
+      descripcion: 'juego pelota',
       imagen:'imagen juego',
       grupal:false		
     },{
-      nombre: 'Bel Cafe',
-      descripcion: 'Vancouver',
+      nombre: 'pelota3',
+      descripcion: 'juego pelota',
       imagen:'imagen juego',
       grupal:false		
     }], function(err, Juego) {
